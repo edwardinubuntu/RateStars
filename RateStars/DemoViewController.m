@@ -64,7 +64,7 @@
 #pragma mark UIAlertViewDelegate
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
-  [self.tapRateView refresh];
+  [self.tapRateView clean];
 }
 
 @end

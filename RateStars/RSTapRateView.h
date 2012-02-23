@@ -29,7 +29,7 @@
 @property (nonatomic, retain) UILabel *textLabel;
 @property (nonatomic, assign) NSInteger rating;
 
-- (void)refresh;
+- (void)clean;
 
 @end
 

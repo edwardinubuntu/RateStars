@@ -167,7 +167,7 @@ static const CGFloat    kDefaultReflectionOpacity = 0.30;
 #pragma mark -
 #pragma mark public
 
-- (void)refresh {
+- (void)clean {
   _textLabel.text = kTextLabelText;
   self.oneStarButton.selected = NO;
   self.twoStarButton.selected = NO;
