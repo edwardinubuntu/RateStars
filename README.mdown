@@ -1,8 +1,22 @@
+## RateStars
+
 RateStars provides a rating view, according to user tab on the stars, and present the selected image immediately, by pressing the send button, get the rating result from it.
 
 <img src="https://lh4.googleusercontent.com/-xW7oqWPJcqY/T0ZoOJE1uyI/AAAAAAAAB6g/5sEAQrN-g9o/s400/Screen%2520Shot%25202012-02-24%2520at%2520%25E4%25B8%258A%25E5%258D%258812.21.59.png" height="400" width="213" /> <img src="https://lh6.googleusercontent.com/-wwR1b4zJvCM/T0ZoOHSfMAI/AAAAAAAAB6Y/ySPowDmzE_s/s400/Screen%2520Shot%25202012-02-24%2520at%2520%25E4%25B8%258A%25E5%258D%258812.22.05.png" height="400" width="213" /> <img src="https://lh5.googleusercontent.com/-U-Jvn1Me8js/T0ZoOUdBYiI/AAAAAAAAB6c/cokNVdO9iYk/s400/Screen%2520Shot%25202012-02-24%2520at%2520%25E4%25B8%258A%25E5%258D%258812.22.09.png" height="400" width="213" />
 
-How to use:
+## How to use
 
 * Downlaod the project or use command line **git clone**.
 * Get Started to use it, or open DemoViewController to know more.
+
+## License
+
+This code is distributed under the terms and conditions of the MIT license.
+
+ Copyright (C) 2012 Edward Chiang
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
