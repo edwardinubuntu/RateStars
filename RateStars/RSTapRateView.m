@@ -187,21 +187,23 @@ static const CGFloat    kDefaultReflectionOpacity = 0.30;
     currentButton.selected = YES;
 
     self.textLabel.text = nil;
-
-    self.oneStarButton.selected = currentButton.tag >= self.oneStarButton.tag;
-    self.twoStarButton.selected = currentButton.tag >= self.twoStarButton.tag;
-    self.threeStarButton.selected = currentButton.tag >= self.threeStarButton.tag;
-    self.fourStarButton.selected = currentButton.tag >= self.fourStarButton.tag;
-    self.fiveStarButton.selected = currentButton.tag >= self.fiveStarButton.tag;
+      
+    self.rating = currentButton.tag;
 
     [self reflectionViewRefresh];
 
-    self.rating = currentButton.tag;
-
-    if (self.delegate && [self.delegate respondsToSelector:@selector(tapDidRateView:rating:)]) {
-      [self.delegate tapDidRateView:self rating:self.rating];
-    }
+    [self.delegate tapDidRateView:self rating:self.rating];
   }
+}
+
+- (void)setRating:(NSInteger)aRating {
+    self.oneStarButton.selected = aRating >= self.oneStarButton.tag;
+    self.twoStarButton.selected = aRating >= self.twoStarButton.tag;
+    self.threeStarButton.selected = aRating>= self.threeStarButton.tag;
+    self.fourStarButton.selected = aRating >= self.fourStarButton.tag;
+    self.fiveStarButton.selected = aRating >= self.fiveStarButton.tag;
+    
+    _rating = aRating;
 }
 
 - (void)reflectionViewRefresh {
